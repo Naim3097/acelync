@@ -9,7 +9,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">Tech Info</h3>
+            <h3 className="text-2xl font-bold mb-4">Tech Today Global</h3>
             <p className="text-gray-300 mb-4 max-w-md">
               Your trusted source for enterprise technology insights and cutting-edge analysis. 
               Stay ahead with expert coverage of AI infrastructure, cybersecurity, 5G networks, 
@@ -118,7 +118,7 @@ export function Footer() {
 
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-300 text-sm">
-            © {currentYear} Tech Info. All rights reserved.
+            © {currentYear} Tech Today Global. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link href="/privacy" className="text-gray-300 hover:text-white text-sm transition-colors">

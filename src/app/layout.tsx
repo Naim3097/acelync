@@ -11,21 +11,21 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://techtodayglobal.com'),
-  title: "Tech Info - Enterprise Technology Insights & AI Infrastructure",
+  title: "Tech Today Global - Enterprise Technology Insights & AI Infrastructure",
   description: "Latest insights on AI infrastructure, cybersecurity breaches, 5G networks, and enterprise technology solutions. Expert analysis on digital transformation.",
   keywords: "AI infrastructure, cybersecurity, 5G networks, enterprise technology, digital transformation, NVIDIA Blackwell, GPT-5, quantum computing",
-  authors: [{ name: "Tech Info Editorial Team" }],
+  authors: [{ name: "Tech Today Global Editorial Team" }],
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://techtodayglobal.com',
-    siteName: 'Tech Info',
+    siteName: 'Tech Today Global',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Tech Info - Enterprise Technology Insights & AI Infrastructure',
+        alt: 'Tech Today Global - Enterprise Technology Insights & AI Infrastructure',
       },
     ],
   },

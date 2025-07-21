@@ -237,17 +237,17 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
   
   if (!category) {
     return {
-      title: "Category Not Found | Tech Info",
+      title: "Category Not Found | Tech Today Global",
       description: "The requested category could not be found."
     };
   }
 
   return {
-    title: `${category.name} Articles - Tech Info`,
+    title: `${category.name} Articles - Tech Today Global`,
     description: `${category.description} Browse our comprehensive ${category.name} insights and analysis.`,
     keywords: `${category.name.toLowerCase()}, enterprise technology, tech insights, ${slug}`,
     openGraph: {
-      title: `${category.name} Articles - Tech Info`,
+      title: `${category.name} Articles - Tech Today Global`,
       description: category.description,
       url: `https://techtodayglobal.com/blog/category/${slug}/`,
       type: 'website',

@@ -2,12 +2,12 @@ import Link from 'next/link';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Tech Info - Enterprise Technology Insights & Analysis",
-  description: "Learn about Tech Info's mission to provide cutting-edge analysis on AI infrastructure, cybersecurity, 5G networks, and enterprise technology solutions.",
-  keywords: "about tech info, technology analysis, AI infrastructure, cybersecurity insights, enterprise technology, digital transformation",
+  title: "About Tech Today Global - Enterprise Technology Insights & Analysis",
+  description: "Learn about Tech Today Global's mission to provide cutting-edge analysis on AI infrastructure, cybersecurity, 5G networks, and enterprise technology solutions.",
+  keywords: "about tech today global, technology analysis, AI infrastructure, cybersecurity insights, enterprise technology, digital transformation",
   openGraph: {
-    title: 'About Tech Info - Enterprise Technology Insights & Analysis',
-    description: 'Learn about Tech Info\'s mission to provide cutting-edge analysis on AI infrastructure, cybersecurity, 5G networks, and enterprise technology solutions.',
+    title: 'About Tech Today Global - Enterprise Technology Insights & Analysis',
+    description: 'Learn about Tech Today Global\'s mission to provide cutting-edge analysis on AI infrastructure, cybersecurity, 5G networks, and enterprise technology solutions.',
     url: 'https://techtodayglobal.com/about/',
     type: 'website',
   },
@@ -19,7 +19,7 @@ export default function AboutPage() {
       {/* Header */}
       <div className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-          About Tech Info
+          About Tech Today Global
         </h1>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
           Your trusted source for enterprise technology insights and cutting-edge analysis
@@ -31,7 +31,7 @@ export default function AboutPage() {
         <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h2>
           <p className="text-lg text-gray-700 leading-relaxed">
-            Tech Info is dedicated to providing comprehensive, expert analysis of the most significant developments 
+            Tech Today Global is dedicated to providing comprehensive, expert analysis of the most significant developments 
             in enterprise technology. We focus on the real-world impact of technological breakthroughs, 
             helping businesses understand and prepare for the rapid evolution of AI infrastructure, 
             cybersecurity threats, network solutions, and digital transformation.
@@ -119,7 +119,7 @@ export default function AboutPage() {
           </div>
         </div>
 
-        <h2 className="text-3xl font-bold text-gray-900 mb-6">Why Tech Info Matters</h2>
+        <h2 className="text-3xl font-bold text-gray-900 mb-6">Why Tech Today Global Matters</h2>
         
         <p className="text-lg text-gray-700 mb-6">
           The technology landscape is evolving at an unprecedented pace. In July 2025 alone, we witnessed 
@@ -128,7 +128,7 @@ export default function AboutPage() {
         </p>
         
         <p className="text-lg text-gray-700 mb-6">
-          Tech Info exists to help enterprise leaders navigate this complex landscape. We don't just report 
+          Tech Today Global exists to help enterprise leaders navigate this complex landscape. We don't just report 
           on technology news – we analyze its implications, explore its impact on business operations, 
           and provide actionable insights for strategic planning.
         </p>

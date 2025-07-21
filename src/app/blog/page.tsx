@@ -2,11 +2,11 @@ import Link from 'next/link';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Tech Info Blog - AI Infrastructure, Cybersecurity & Enterprise Technology",
+  title: "Tech Today Global Blog - AI Infrastructure, Cybersecurity & Enterprise Technology",
   description: "Latest analysis on AI infrastructure breakthroughs, cybersecurity threats, 5G networks, and enterprise technology solutions. Expert insights from July 2025.",
   keywords: "AI infrastructure blog, cybersecurity analysis, 5G networks, enterprise technology, NVIDIA Blackwell Ultra, GPT-5, quantum computing",
   openGraph: {
-    title: 'Tech Info Blog - AI Infrastructure, Cybersecurity & Enterprise Technology',
+    title: 'Tech Today Global Blog - AI Infrastructure, Cybersecurity & Enterprise Technology',
     description: 'Latest analysis on AI infrastructure breakthroughs, cybersecurity threats, 5G networks, and enterprise technology solutions.',
     url: 'https://techtodayglobal.com/blog/',
     images: [
@@ -199,7 +199,7 @@ export default function BlogPage() {
       {/* Header */}
       <div className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-          Tech Info Blog
+          Tech Today Global Blog
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Latest analysis on AI infrastructure, cybersecurity breaches, 5G networks, 

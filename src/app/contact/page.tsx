@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Tech Info - Get In Touch for Technology Insights",
-  description: "Contact Tech Info for enterprise technology consultations, media inquiries, or to discuss AI infrastructure, cybersecurity, and digital transformation needs.",
-  keywords: "contact tech info, technology consultation, enterprise technology contact, AI infrastructure consulting, cybersecurity consulting",
+  title: "Contact Tech Today Global - Get In Touch for Technology Insights",
+  description: "Contact Tech Today Global for enterprise technology consultations, media inquiries, or to discuss AI infrastructure, cybersecurity, and digital transformation needs.",
+  keywords: "contact tech today global, technology consultation, enterprise technology contact, AI infrastructure consulting, cybersecurity consulting",
   openGraph: {
-    title: 'Contact Tech Info - Get In Touch for Technology Insights',
-    description: 'Contact Tech Info for enterprise technology consultations, media inquiries, or to discuss AI infrastructure, cybersecurity, and digital transformation needs.',
+    title: 'Contact Tech Today Global - Get In Touch for Technology Insights',
+    description: 'Contact Tech Today Global for enterprise technology consultations, media inquiries, or to discuss AI infrastructure, cybersecurity, and digital transformation needs.',
     url: 'https://techtodayglobal.com/contact/',
     type: 'website',
   },
@@ -18,7 +18,7 @@ export default function ContactPage() {
       {/* Header */}
       <div className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-          Contact Tech Info
+          Contact Tech Today Global
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Get in touch for enterprise technology insights, consultation requests, 
