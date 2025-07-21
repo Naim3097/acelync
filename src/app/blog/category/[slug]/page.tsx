@@ -2,9 +2,9 @@ import Link from 'next/link';
 import type { Metadata } from "next";
 
 interface CategoryPageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 // Define the articles data with categories
@@ -222,7 +222,8 @@ const categoryInfo = {
 };
 
 export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
-  const category = categoryInfo[params.slug as keyof typeof categoryInfo];
+  const { slug } = await params;
+  const category = categoryInfo[slug as keyof typeof categoryInfo];
   
   if (!category) {
     return {
@@ -234,18 +235,19 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
   return {
     title: `${category.name} Articles - Tech Info`,
     description: `${category.description} Browse our comprehensive ${category.name} insights and analysis.`,
-    keywords: `${category.name.toLowerCase()}, enterprise technology, tech insights, ${params.slug}`,
+    keywords: `${category.name.toLowerCase()}, enterprise technology, tech insights, ${slug}`,
     openGraph: {
       title: `${category.name} Articles - Tech Info`,
       description: category.description,
-      url: `https://acelync.com/blog/category/${params.slug}/`,
+      url: `https://acelync.com/blog/category/${slug}/`,
       type: 'website',
     },
   };
 }
 
-export default function CategoryPage({ params }: CategoryPageProps) {
-  const category = categoryInfo[params.slug as keyof typeof categoryInfo];
+export default async function CategoryPage({ params }: CategoryPageProps) {
+  const { slug } = await params;
+  const category = categoryInfo[slug as keyof typeof categoryInfo];
   
   if (!category) {
     return (
@@ -262,7 +264,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
     );
   }
 
-  const categoryArticles = allArticles.filter(article => article.category === params.slug);
+  const categoryArticles = allArticles.filter(article => article.category === slug);
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -401,18 +403,18 @@ export default function CategoryPage({ params }: CategoryPageProps) {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {Object.entries(categoryInfo)
-            .filter(([slug]) => slug !== params.slug)
-            .map(([slug, info]) => (
+            .filter(([categorySlug]) => categorySlug !== slug)
+            .map(([categorySlug, info]) => (
               <Link 
-                key={slug}
-                href={`/blog/category/${slug}`}
+                key={categorySlug}
+                href={`/blog/category/${categorySlug}`}
                 className="bg-white p-4 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow text-center group"
               >
                 <h3 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
                   {info.name}
                 </h3>
                 <p className="text-gray-600 text-sm mt-1">
-                  {allArticles.filter(article => article.category === slug).length} articles
+                  {allArticles.filter(article => article.category === categorySlug).length} articles
                 </p>
               </Link>
             ))}
