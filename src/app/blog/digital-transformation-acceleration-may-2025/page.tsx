@@ -2,14 +2,14 @@ import Link from 'next/link';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Digital Transformation Acceleration: May 2025's Enterprise Software Revolution | Acelync",
+  title: "Digital Transformation Acceleration: May 2025's Enterprise Software Revolution | Tech Today Global",
   description: "Microsoft's Copilot Enterprise launch, Salesforce's Einstein 2.0, and Adobe's Creative Cloud AI in May 2025 accelerated digital transformation across industries.",
   keywords: "digital transformation, Microsoft Copilot Enterprise, Salesforce Einstein 2.0, enterprise software, AI productivity, business automation, digital solutions",
-  authors: [{ name: "Acelync Digital Team" }],
+  authors: [{ name: "Tech Today Global Digital Team" }],
   openGraph: {
     title: 'Digital Transformation Acceleration: May 2025\'s Enterprise Software Revolution',
     description: 'Microsoft\'s Copilot Enterprise and Salesforce\'s Einstein 2.0 accelerated digital transformation across industries.',
-    url: 'https://acelync.com/blog/digital-transformation-acceleration-may-2025/',
+    url: 'https://techtodayglobal.com/blog/digital-transformation-acceleration-may-2025/',
     type: 'article',
     images: [{ url: '/blog/digital-transformation-2025.jpg', width: 1200, height: 630 }],
     publishedTime: '2025-05-06',
@@ -21,7 +21,7 @@ export default function ArticlePage() {
   return (
     <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <header className="mb-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
+        <h1 className="text-4xl font-bold text-gray-900 mb-4 text-center sm:text-left">
           Digital Transformation Acceleration: May 2025's Enterprise Software Revolution
         </h1>
         <div className="flex items-center text-gray-600">

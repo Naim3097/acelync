@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Contact Tech Info - Get In Touch for Technology Insights',
     description: 'Contact Tech Info for enterprise technology consultations, media inquiries, or to discuss AI infrastructure, cybersecurity, and digital transformation needs.',
-    url: 'https://acelync.com/contact/',
+    url: 'https://techtodayglobal.com/contact/',
     type: 'website',
   },
 };

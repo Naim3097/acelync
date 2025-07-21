@@ -2,14 +2,14 @@ import Link from 'next/link';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Behavioral Analytics Breakthrough: How AI Detection in April 2025 Revolutionized Enterprise Security | Acelync",
+  title: "Behavioral Analytics Breakthrough: How AI Detection in April 2025 Revolutionized Enterprise Security | Tech Today Global",
   description: "Microsoft Sentinel's UEBA 2.0, Splunk's behavioral AI, and Exabeam's fusion platform launched in April 2025, transforming insider threat detection capabilities.",
   keywords: "behavioral analytics, UEBA, Microsoft Sentinel 2.0, Splunk behavioral AI, Exabeam fusion, insider threat detection, user analytics, entity monitoring",
-  authors: [{ name: "Acelync Analytics Team" }],
+  authors: [{ name: "Tech Today Global Analytics Team" }],
   openGraph: {
     title: 'Behavioral Analytics Breakthrough: AI Detection Revolutionized Enterprise Security',
     description: 'Microsoft Sentinel\'s UEBA 2.0 and Splunk\'s behavioral AI transformed insider threat detection capabilities.',
-    url: 'https://acelync.com/blog/behavioral-analytics-ai-breakthrough-april-2025/',
+    url: 'https://techtodayglobal.com/blog/behavioral-analytics-ai-breakthrough-april-2025/',
     type: 'article',
     images: [{ url: '/blog/behavioral-analytics-2025.jpg', width: 1200, height: 630 }],
     publishedTime: '2025-04-08',
@@ -21,7 +21,7 @@ export default function ArticlePage() {
   return (
     <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <header className="mb-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
+        <h1 className="text-4xl font-bold text-gray-900 mb-4 text-center sm:text-left">
           Behavioral Analytics Breakthrough: How AI Detection in April 2025 Revolutionized Enterprise Security
         </h1>
         <div className="flex items-center text-gray-600">

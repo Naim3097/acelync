@@ -2,14 +2,14 @@ import Link from 'next/link';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Cloud Computing Revolution: AWS, Azure, and Google's June 2025 Quantum Leap | Acelync",
+  title: "Cloud Computing Revolution: AWS, Azure, and Google's June 2025 Quantum Leap | Tech Today Global",
   description: "Amazon's Graviton4 processors, Microsoft's Azure Quantum Cloud, and Google's Axion chips announced in June 2025 are revolutionizing enterprise cloud strategies.",
   keywords: "cloud computing 2025, AWS Graviton4, Azure Quantum Cloud, Google Axion, enterprise cloud migration, hybrid cloud, multi-cloud strategy",
-  authors: [{ name: "Acelync Cloud Team" }],
+  authors: [{ name: "Tech Today Global Cloud Team" }],
   openGraph: {
     title: 'Cloud Computing Revolution: AWS, Azure, and Google\'s June 2025 Quantum Leap',
     description: 'Amazon\'s Graviton4 processors and Microsoft\'s Azure Quantum Cloud are revolutionizing enterprise cloud strategies.',
-    url: 'https://acelync.com/blog/cloud-computing-revolution-june-2025/',
+    url: 'https://techtodayglobal.com/blog/cloud-computing-revolution-june-2025/',
     type: 'article',
     images: [{ url: '/blog/cloud-revolution-2025.jpg', width: 1200, height: 630 }],
     publishedTime: '2025-06-10',
@@ -23,10 +23,10 @@ export default function ArticlePage() {
     "@type": "BlogPosting",
     "headline": "Cloud Computing Revolution: AWS, Azure, and Google's June 2025 Quantum Leap",
     "description": "Amazon's Graviton4 processors and Microsoft's Azure Quantum Cloud are revolutionizing enterprise cloud strategies.",
-    "author": { "@type": "Organization", "name": "Acelync Cloud Team" },
-    "publisher": { "@type": "Organization", "name": "Acelync" },
+    "author": { "@type": "Organization", "name": "Tech Today Global Cloud Team" },
+    "publisher": { "@type": "Organization", "name": "Tech Today Global" },
     "datePublished": "2025-07-21",
-    "mainEntityOfPage": "https://acelync.com/blog/cloud-computing-revolution-june-2025"
+    "mainEntityOfPage": "https://techtodayglobal.com/blog/cloud-computing-revolution-june-2025"
   };
 
   return (
@@ -41,7 +41,7 @@ export default function ArticlePage() {
             <span>Cloud Computing</span>
           </div>
           
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4 text-center sm:text-left">
             Cloud Computing Revolution: AWS, Azure, and Google's June 2025 Quantum Leap
           </h1>
           

@@ -2,14 +2,14 @@ import Link from 'next/link';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "5G Enterprise Networks: How June 2025's Breakthroughs Changed Business Connectivity | Acelync",
+  title: "5G Enterprise Networks: How June 2025's Breakthroughs Changed Business Connectivity | Tech Today Global",
   description: "Verizon's 5G Standalone launch, AT&T's private network expansion, and WiFi 7 enterprise rollouts in June 2025 revolutionized business connectivity standards.",
   keywords: "5G enterprise networks, WiFi 7, private 5G networks, business connectivity, network infrastructure, wireless networking, enterprise mobility",
-  authors: [{ name: "Acelync Network Team" }],
+  authors: [{ name: "Tech Today Global Network Team" }],
   openGraph: {
     title: '5G Enterprise Networks: How June 2025\'s Breakthroughs Changed Business Connectivity',
     description: 'Verizon\'s 5G Standalone launch and WiFi 7 enterprise rollouts revolutionized business connectivity standards.',
-    url: 'https://acelync.com/blog/5g-enterprise-networks-june-2025/',
+    url: 'https://techtodayglobal.com/blog/5g-enterprise-networks-june-2025/',
     type: 'article',
     images: [{ url: '/blog/5g-enterprise-2025.jpg', width: 1200, height: 630 }],
     publishedTime: '2025-06-03',
@@ -21,7 +21,7 @@ export default function ArticlePage() {
   return (
     <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <header className="mb-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
+        <h1 className="text-4xl font-bold text-gray-900 mb-4 text-center sm:text-left">
           5G Enterprise Networks: How June 2025's Breakthroughs Changed Business Connectivity
         </h1>
         <div className="flex items-center text-gray-600">

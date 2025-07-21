@@ -2,14 +2,14 @@ import Link from 'next/link';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Managed Security Services Evolution: How 24/7 SOC Operations in May 2025 Redefined Enterprise Protection | Acelync",
+  title: "Managed Security Services Evolution: How 24/7 SOC Operations in May 2025 Redefined Enterprise Protection | Tech Today Global",
   description: "IBM's managed security services 3.0, Accenture's AI-powered SOC, and SecureWorks' threat hunting platform in May 2025 transformed enterprise security operations.",
   keywords: "managed security services, 24/7 SOC operations, IBM security services, Accenture AI SOC, SecureWorks threat hunting, enterprise security operations",
-  authors: [{ name: "Acelync SOC Team" }],
+  authors: [{ name: "Tech Today Global SOC Team" }],
   openGraph: {
     title: 'Managed Security Services Evolution: 24/7 SOC Operations Redefined Enterprise Protection',
     description: 'IBM\'s managed security services 3.0 and AI-powered SOC operations transformed enterprise security.',
-    url: 'https://acelync.com/blog/managed-security-services-evolution-may-2025/',
+    url: 'https://techtodayglobal.com/blog/managed-security-services-evolution-may-2025/',
     type: 'article',
     images: [{ url: '/blog/managed-security-2025.jpg', width: 1200, height: 630 }],
     publishedTime: '2025-05-20',
@@ -21,7 +21,7 @@ export default function ArticlePage() {
   return (
     <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <header className="mb-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
+        <h1 className="text-4xl font-bold text-gray-900 mb-4 text-center sm:text-left">
           Managed Security Services Evolution: How 24/7 SOC Operations in May 2025 Redefined Enterprise Protection
         </h1>
         <div className="flex items-center text-gray-600">

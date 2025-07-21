@@ -2,14 +2,14 @@ import Link from 'next/link';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Next-Generation Firewall Revolution: How AI-Powered Security Changed Network Protection in May 2025 | Acelync",
+  title: "Next-Generation Firewall Revolution: How AI-Powered Security Changed Network Protection in May 2025 | Tech Today Global",
   description: "Palo Alto's AI-powered NGFW, Fortinet's ML security fabric, and Cisco's adaptive firewalls launched in May 2025 revolutionized enterprise network protection.",
   keywords: "next-generation firewall, AI-powered security, Palo Alto NGFW, Fortinet ML security, Cisco adaptive firewall, network protection, enterprise security",
-  authors: [{ name: "Acelync Firewall Team" }],
+  authors: [{ name: "Tech Today Global Firewall Team" }],
   openGraph: {
     title: 'Next-Generation Firewall Revolution: AI-Powered Security Changed Network Protection',
     description: 'Palo Alto\'s AI-powered NGFW and Fortinet\'s ML security fabric revolutionized enterprise network protection.',
-    url: 'https://acelync.com/blog/next-generation-firewall-ai-revolution-may-2025/',
+    url: 'https://techtodayglobal.com/blog/next-generation-firewall-ai-revolution-may-2025/',
     type: 'article',
     images: [{ url: '/blog/ngfw-ai-revolution-2025.jpg', width: 1200, height: 630 }],
     publishedTime: '2025-05-28',
@@ -21,7 +21,7 @@ export default function ArticlePage() {
   return (
     <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <header className="mb-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
+        <h1 className="text-4xl font-bold text-gray-900 mb-4 text-center sm:text-left">
           Next-Generation Firewall Revolution: How AI-Powered Security Changed Network Protection in May 2025
         </h1>
         <div className="flex items-center text-gray-600">

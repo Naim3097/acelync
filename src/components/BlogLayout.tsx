@@ -19,7 +19,7 @@ export default function BlogLayout({
   category,
   readTime,
   publishDate,
-  author = "Acelync Editorial Team",
+  author = "Tech Today Global Editorial Team",
   structuredData
 }: BlogLayoutProps) {
   return (

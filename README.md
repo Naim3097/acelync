@@ -1,11 +1,11 @@
-# Acelync SEO Blog - Link Building Hub
+# Tech Today Global SEO Blog - Link Building Hub
 
 A Next.js blog website designed specifically for SEO link building to promote AceIT Group services. This site serves as an external linking hub to build domain authority and drive qualified traffic.
 
 ## 🎯 SEO Strategy Overview
 
 This blog implements a strategic 10-article linking plan designed to:
-- Build domain authority for acelync.com
+- Build domain authority for techtodayglobal.com
 - Generate high-quality backlinks to AceIT Group
 - Target enterprise technology keywords
 - Drive qualified B2B traffic
@@ -178,7 +178,7 @@ npm run start
 ### Environment Variables
 Create `.env.local` file:
 ```
-NEXT_PUBLIC_SITE_URL=https://acelync.com
+NEXT_PUBLIC_SITE_URL=https://techtodayglobal.com
 GOOGLE_ANALYTICS_ID=GA_MEASUREMENT_ID
 ```
 

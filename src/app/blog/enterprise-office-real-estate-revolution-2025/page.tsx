@@ -2,14 +2,14 @@ import Link from 'next/link';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Enterprise Office Real Estate Revolution: How Hybrid Work in 2025 Transformed Commercial Space Strategies | Acelync",
+  title: "Enterprise Office Real Estate Revolution: How Hybrid Work in 2025 Transformed Commercial Space Strategies | Tech Today Global",
   description: "WeWork's enterprise solutions, flexible office platforms, and smart building technologies in 2025 revolutionized how companies approach office space and real estate.",
   keywords: "office rental services, enterprise real estate, hybrid work solutions, flexible office space, smart buildings, commercial real estate 2025, workspace management",
-  authors: [{ name: "Acelync Workspace Team" }],
+  authors: [{ name: "Tech Today Global Workspace Team" }],
   openGraph: {
     title: 'Enterprise Office Real Estate Revolution: Hybrid Work Transformed Commercial Space',
     description: 'WeWork\'s enterprise solutions and smart building technologies revolutionized commercial real estate strategies.',
-    url: 'https://acelync.com/blog/enterprise-office-real-estate-revolution-2025/',
+    url: 'https://techtodayglobal.com/blog/enterprise-office-real-estate-revolution-2025/',
     type: 'article',
     images: [{ url: '/blog/office-real-estate-2025.jpg', width: 1200, height: 630 }],
     publishedTime: '2025-06-05',
@@ -21,7 +21,7 @@ export default function ArticlePage() {
   return (
     <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <header className="mb-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
+        <h1 className="text-4xl font-bold text-gray-900 mb-4 text-center sm:text-left">
           Enterprise Office Real Estate Revolution: How Hybrid Work in 2025 Transformed Commercial Space Strategies
         </h1>
         <div className="flex items-center text-gray-600">

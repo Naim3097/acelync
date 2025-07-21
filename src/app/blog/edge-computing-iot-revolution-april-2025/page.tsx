@@ -2,14 +2,14 @@ import Link from 'next/link';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Edge Computing Explosion: How April 2025's IoT Revolution Changed Enterprise Operations | Acelync",
+  title: "Edge Computing Explosion: How April 2025's IoT Revolution Changed Enterprise Operations | Tech Today Global",
   description: "AWS IoT TwinMaker, Microsoft Azure IoT Accelerator, and Google's Edge TPU launch in April 2025 revolutionized enterprise IoT and edge computing deployments.",
   keywords: "edge computing, IoT revolution, AWS IoT TwinMaker, Azure IoT Accelerator, Google Edge TPU, enterprise IoT, industrial automation, smart manufacturing",
-  authors: [{ name: "Acelync IoT Team" }],
+  authors: [{ name: "Tech Today Global IoT Team" }],
   openGraph: {
     title: 'Edge Computing Explosion: How April 2025\'s IoT Revolution Changed Enterprise Operations',
     description: 'AWS IoT TwinMaker and Microsoft Azure IoT Accelerator revolutionized enterprise IoT deployments.',
-    url: 'https://acelync.com/blog/edge-computing-iot-revolution-april-2025/',
+    url: 'https://techtodayglobal.com/blog/edge-computing-iot-revolution-april-2025/',
     type: 'article',
     images: [{ url: '/blog/edge-computing-2025.jpg', width: 1200, height: 630 }],
     publishedTime: '2025-04-22',
@@ -21,7 +21,7 @@ export default function ArticlePage() {
   return (
     <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <header className="mb-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
+        <h1 className="text-4xl font-bold text-gray-900 mb-4 text-center sm:text-left">
           Edge Computing Explosion: How April 2025's IoT Revolution Changed Enterprise Operations
         </h1>
         <div className="flex items-center text-gray-600">

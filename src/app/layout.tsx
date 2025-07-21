@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://acelync.com'),
+  metadataBase: new URL('https://techtodayglobal.com'),
   title: "Tech Info - Enterprise Technology Insights & AI Infrastructure",
   description: "Latest insights on AI infrastructure, cybersecurity breaches, 5G networks, and enterprise technology solutions. Expert analysis on digital transformation.",
   keywords: "AI infrastructure, cybersecurity, 5G networks, enterprise technology, digital transformation, NVIDIA Blackwell, GPT-5, quantum computing",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://acelync.com',
+    url: 'https://techtodayglobal.com',
     siteName: 'Tech Info',
     images: [
       {
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Acelync - Technology Insights & Digital Solutions',
+    title: 'Tech Today Global - Technology Insights & Digital Solutions',
     description: 'Expert insights on technology trends, IT solutions, and digital transformation strategies.',
     images: ['/og-image.jpg'],
   },
@@ -54,13 +54,13 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Acelync",
-  "url": "https://acelync.com",
-  "logo": "https://acelync.com/logo.png",
+  "name": "Tech Today Global",
+  "url": "https://techtodayglobal.com",
+  "logo": "https://techtodayglobal.com/logo.png",
   "description": "Expert insights on technology trends, IT solutions, and digital transformation strategies.",
   "sameAs": [
-    "https://linkedin.com/company/acelync",
-    "https://twitter.com/acelync"
+    "https://linkedin.com/company/techtodayglobal",
+    "https://twitter.com/techtodayglobal"
   ]
 };
 
@@ -72,7 +72,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://acelync.com" />
+        <link rel="canonical" href="https://techtodayglobal.com" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

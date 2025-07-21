@@ -2,14 +2,14 @@ import Link from 'next/link';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Advanced Cyber Consultation: How June 2025's Strategic Security Advisory Transformed Enterprise Defense | Acelync",
+  title: "Advanced Cyber Consultation: How June 2025's Strategic Security Advisory Transformed Enterprise Defense | Tech Today Global",
   description: "Deloitte's Cyber Risk services, PwC's digital trust platform, and KPMG's cyber resilience framework in June 2025 revolutionized strategic cybersecurity consulting.",
   keywords: "advanced cyber consultation, strategic cybersecurity, Deloitte cyber risk, PwC digital trust, KPMG cyber resilience, enterprise security strategy, cyber advisory",
-  authors: [{ name: "Acelync Cyber Strategy Team" }],
+  authors: [{ name: "Tech Today Global Cyber Strategy Team" }],
   openGraph: {
     title: 'Advanced Cyber Consultation: Strategic Security Advisory Transformed Enterprise Defense',
     description: 'Deloitte\'s Cyber Risk services and strategic cybersecurity frameworks revolutionized enterprise defense strategies.',
-    url: 'https://acelync.com/blog/advanced-cyber-consultation-strategic-june-2025/',
+    url: 'https://techtodayglobal.com/blog/advanced-cyber-consultation-strategic-june-2025/',
     type: 'article',
     images: [{ url: '/blog/cyber-consultation-2025.jpg', width: 1200, height: 630 }],
     publishedTime: '2025-06-24',
@@ -21,7 +21,7 @@ export default function ArticlePage() {
   return (
     <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <header className="mb-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
+        <h1 className="text-4xl font-bold text-gray-900 mb-4 text-center sm:text-left">
           Advanced Cyber Consultation: How June 2025's Strategic Security Advisory Transformed Enterprise Defense
         </h1>
         <div className="flex items-center text-gray-600">

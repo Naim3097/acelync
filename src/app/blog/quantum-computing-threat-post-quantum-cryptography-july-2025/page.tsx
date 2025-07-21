@@ -2,14 +2,14 @@ import Link from 'next/link';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Quantum Computing Threat: How Post-Quantum Cryptography in July 2025 Saved Enterprise Security | Acelync",
+  title: "Quantum Computing Threat: How Post-Quantum Cryptography in July 2025 Saved Enterprise Security | Tech Today Global",
   description: "NIST's post-quantum cryptography standards, IBM's quantum-safe solutions, and enterprise quantum threat preparation in July 2025 revolutionized cybersecurity.",
   keywords: "quantum computing threat, post-quantum cryptography, NIST quantum standards, IBM quantum-safe, quantum threat intelligence, enterprise quantum security",
-  authors: [{ name: "Acelync Quantum Security Team" }],
+  authors: [{ name: "Tech Today Global Quantum Security Team" }],
   openGraph: {
     title: 'Quantum Computing Threat: Post-Quantum Cryptography Saved Enterprise Security',
     description: 'NIST\'s post-quantum cryptography standards and IBM\'s quantum-safe solutions revolutionized cybersecurity.',
-    url: 'https://acelync.com/blog/quantum-computing-threat-post-quantum-cryptography-july-2025/',
+    url: 'https://techtodayglobal.com/blog/quantum-computing-threat-post-quantum-cryptography-july-2025/',
     type: 'article',
     images: [{ url: '/blog/quantum-security-2025.jpg', width: 1200, height: 630 }],
     publishedTime: '2025-07-22',
@@ -21,7 +21,7 @@ export default function ArticlePage() {
   return (
     <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <header className="mb-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
+        <h1 className="text-4xl font-bold text-gray-900 mb-4 text-center sm:text-left">
           Quantum Computing Threat: How Post-Quantum Cryptography in July 2025 Saved Enterprise Security
         </h1>
         <div className="flex items-center text-gray-600">

@@ -1,9 +1,9 @@
-# Copilot Instructions for Acelync Blog
+# Copilot Instructions for Tech Today Global Blog
 
 <!-- Use this file to provide workspace-specific custom instructions to Copilot. For more details, visit https://code.visualstudio.com/docs/copilot/copilot-customization#_use-a-githubcopilotinstructionsmd-file -->
 
 ## Project Overview
-This is a Next.js blog website for acelync.com designed specifically for SEO link building to promote AceIT Group services. The site serves as an external linking hub to build domain authority and drive traffic.
+This is a Next.js blog website for techtodayglobal.com designed specifically for SEO link building to promote AceIT Group services. The site serves as an external linking hub to build domain authority and drive traffic.
 
 ## Key Objectives
 - **SEO-First Development**: Every component should be optimized for search engines

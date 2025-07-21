@@ -2,14 +2,14 @@ import Link from 'next/link';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AI Infrastructure Revolution: How NVIDIA's July 2025 Breakthrough Changes Everything | Acelync",
+  title: "AI Infrastructure Revolution: How NVIDIA's July 2025 Breakthrough Changes Everything | Tech Today Global",
   description: "NVIDIA's Blackwell Ultra GPUs and OpenAI's GPT-5 launch in July 2025 are reshaping enterprise AI infrastructure. Learn how to prepare your network for AI workloads.",
   keywords: "AI infrastructure, NVIDIA Blackwell Ultra, GPT-5, enterprise AI, network infrastructure, AI workloads, data center modernization",
-  authors: [{ name: "Acelync Editorial Team" }],
+  authors: [{ name: "Tech Today Global Editorial Team" }],
   openGraph: {
     title: 'AI Infrastructure Revolution: NVIDIA\'s July 2025 Breakthrough Changes Everything',
     description: 'NVIDIA\'s Blackwell Ultra GPUs and OpenAI\'s GPT-5 launch are reshaping enterprise AI infrastructure requirements.',
-    url: 'https://acelync.com/blog/ai-infrastructure-revolution-july-2025/',
+    url: 'https://techtodayglobal.com/blog/ai-infrastructure-revolution-july-2025/',
     type: 'article',
     images: [{ url: '/blog/ai-infrastructure-2025.jpg', width: 1200, height: 630 }],
     publishedTime: '2025-07-08',
@@ -21,7 +21,7 @@ export default function ArticlePage() {
   return (
     <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <header className="mb-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
+        <h1 className="text-4xl font-bold text-gray-900 mb-4 text-center sm:text-left">
           AI Infrastructure Revolution: How NVIDIA's July 2025 Breakthrough Changes Everything
         </h1>
         <div className="flex items-center text-gray-600">

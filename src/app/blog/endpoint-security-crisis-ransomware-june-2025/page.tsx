@@ -2,14 +2,14 @@ import Link from 'next/link';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Endpoint Security Crisis: How Ransomware Evolution in June 2025 Changed Cybersecurity Forever | Acelync",
+  title: "Endpoint Security Crisis: How Ransomware Evolution in June 2025 Changed Cybersecurity Forever | Tech Today Global",
   description: "LockBit 4.0, BlackCat's AI variants, and state-sponsored attacks in June 2025 forced enterprises to completely rethink endpoint security strategies and defenses.",
   keywords: "endpoint security, ransomware 2025, LockBit 4.0, BlackCat AI, state-sponsored attacks, enterprise cybersecurity, zero-day exploits, threat protection",
-  authors: [{ name: "Acelync Security Research Team" }],
+  authors: [{ name: "Tech Today Global Security Research Team" }],
   openGraph: {
     title: 'Endpoint Security Crisis: How Ransomware Evolution Changed Cybersecurity Forever',
     description: 'LockBit 4.0 and BlackCat\'s AI variants forced enterprises to completely rethink endpoint security strategies.',
-    url: 'https://acelync.com/blog/endpoint-security-crisis-ransomware-june-2025/',
+    url: 'https://techtodayglobal.com/blog/endpoint-security-crisis-ransomware-june-2025/',
     type: 'article',
     images: [{ url: '/blog/endpoint-security-crisis-2025.jpg', width: 1200, height: 630 }],
     publishedTime: '2025-06-17',
@@ -21,7 +21,7 @@ export default function ArticlePage() {
   return (
     <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <header className="mb-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
+        <h1 className="text-4xl font-bold text-gray-900 mb-4 text-center sm:text-left">
           Endpoint Security Crisis: How Ransomware Evolution in June 2025 Changed Cybersecurity Forever
         </h1>
         <div className="flex items-center text-gray-600">

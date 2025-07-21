@@ -2,14 +2,14 @@ import Link from 'next/link';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Enterprise Security Subscriptions: How SaaS Security Models in May 2025 Transformed Cybersecurity | Acelync",
+  title: "Enterprise Security Subscriptions: How SaaS Security Models in May 2025 Transformed Cybersecurity | Tech Today Global",
   description: "CrowdStrike's Falcon Complete 2.0, Microsoft's Security Copilot subscriptions, and Palo Alto's Prisma Cloud unified platform in May 2025 revolutionized security delivery.",
   keywords: "security subscriptions, SaaS security, CrowdStrike Falcon Complete 2.0, Microsoft Security Copilot, Palo Alto Prisma Cloud, managed security, security-as-a-service",
-  authors: [{ name: "Acelync Security Services Team" }],
+  authors: [{ name: "Tech Today Global Security Services Team" }],
   openGraph: {
     title: 'Enterprise Security Subscriptions: SaaS Security Models Transformed Cybersecurity',
     description: 'CrowdStrike\'s Falcon Complete 2.0 and Microsoft\'s Security Copilot revolutionized security service delivery.',
-    url: 'https://acelync.com/blog/enterprise-security-subscriptions-saas-may-2025/',
+    url: 'https://techtodayglobal.com/blog/enterprise-security-subscriptions-saas-may-2025/',
     type: 'article',
     images: [{ url: '/blog/security-subscriptions-2025.jpg', width: 1200, height: 630 }],
     publishedTime: '2025-05-14',
@@ -21,7 +21,7 @@ export default function ArticlePage() {
   return (
     <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <header className="mb-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
+        <h1 className="text-4xl font-bold text-gray-900 mb-4 text-center sm:text-left">
           Enterprise Security Subscriptions: How SaaS Security Models in May 2025 Transformed Cybersecurity
         </h1>
         <div className="flex items-center text-gray-600">

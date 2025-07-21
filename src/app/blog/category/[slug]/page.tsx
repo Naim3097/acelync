@@ -249,7 +249,7 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
     openGraph: {
       title: `${category.name} Articles - Tech Info`,
       description: category.description,
-      url: `https://acelync.com/blog/category/${slug}/`,
+      url: `https://techtodayglobal.com/blog/category/${slug}/`,
       type: 'website',
     },
   };
@@ -288,7 +288,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             {category.description}
           </p>
           <div className="mt-6">
-            <span className="bg-white bg-opacity-20 px-4 py-2 rounded-full text-sm font-medium">
+            <span className="bg-white bg-opacity-20 px-4 py-2 rounded-full text-sm font-medium text-white">
               {categoryArticles.length} articles
             </span>
           </div>
@@ -340,7 +340,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                     <span className="mx-2">•</span>
                     <span>{article.publishDate}</span>
                   </div>
-                  <h2 className="text-2xl font-bold text-gray-900 mb-4 leading-tight">
+                  <h2 className="text-2xl font-bold text-gray-900 mb-4 leading-tight text-center sm:text-left">
                     <Link 
                       href={`/blog/${article.slug}`}
                       className="hover:text-blue-600 transition-colors"
@@ -380,7 +380,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                   <span className="mx-2">•</span>
                   <span>{article.publishDate}</span>
                 </div>
-                <h2 className="text-xl font-bold text-gray-900 mb-3 leading-tight">
+                <h2 className="text-xl font-bold text-gray-900 mb-3 leading-tight text-center sm:text-left">
                   <Link 
                     href={`/blog/${article.slug}`}
                     className="hover:text-blue-600 transition-colors"

@@ -2,14 +2,14 @@ import Link from 'next/link';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "VoIP Evolution: How Microsoft Teams Phone and Zoom's May 2025 Updates Changed Business Communications | Acelync",
+  title: "VoIP Evolution: How Microsoft Teams Phone and Zoom's May 2025 Updates Changed Business Communications | Tech Today Global",
   description: "Microsoft Teams Phone 2.0 and Zoom's AI-powered calling platform launched in May 2025, revolutionizing enterprise communication with advanced features and integration.",
   keywords: "VoIP solutions, Microsoft Teams Phone 2.0, Zoom AI calling, business communications, unified communications, enterprise telephony, cloud calling",
-  authors: [{ name: "Acelync Communications Team" }],
+  authors: [{ name: "Tech Today Global Communications Team" }],
   openGraph: {
     title: 'VoIP Evolution: Microsoft Teams Phone and Zoom\'s May 2025 Revolution',
     description: 'Microsoft Teams Phone 2.0 and Zoom\'s AI-powered platform revolutionized enterprise communication systems.',
-    url: 'https://acelync.com/blog/voip-evolution-microsoft-zoom-may-2025/',
+    url: 'https://techtodayglobal.com/blog/voip-evolution-microsoft-zoom-may-2025/',
     type: 'article',
     images: [{ url: '/blog/voip-evolution-2025.jpg', width: 1200, height: 630 }],
     publishedTime: '2025-05-31',
@@ -21,7 +21,7 @@ export default function ArticlePage() {
   return (
     <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <header className="mb-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
+        <h1 className="text-4xl font-bold text-gray-900 mb-4 text-center sm:text-left">
           VoIP Evolution: How Microsoft Teams Phone and Zoom's May 2025 Updates Changed Business Communications
         </h1>
         <div className="flex items-center text-gray-600">

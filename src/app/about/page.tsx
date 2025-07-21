@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'About Tech Info - Enterprise Technology Insights & Analysis',
     description: 'Learn about Tech Info\'s mission to provide cutting-edge analysis on AI infrastructure, cybersecurity, 5G networks, and enterprise technology solutions.',
-    url: 'https://acelync.com/about/',
+    url: 'https://techtodayglobal.com/about/',
     type: 'website',
   },
 };

@@ -2,8 +2,8 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://acelync.com/sitemap.xml
-Sitemap: https://acelync.com/blog-sitemap.xml
+Sitemap: https://techtodayglobal.com/sitemap.xml
+Sitemap: https://techtodayglobal.com/blog-sitemap.xml
 
 # Crawl delay
 Crawl-delay: 1

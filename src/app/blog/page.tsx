@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Tech Info Blog - AI Infrastructure, Cybersecurity & Enterprise Technology',
     description: 'Latest analysis on AI infrastructure breakthroughs, cybersecurity threats, 5G networks, and enterprise technology solutions.',
-    url: 'https://acelync.com/blog/',
+    url: 'https://techtodayglobal.com/blog/',
     images: [
       {
         url: '/og-blog.jpg',
@@ -268,7 +268,7 @@ export default function BlogPage() {
                 <time dateTime={article.publishDate}>{article.publishDate}</time>
               </div>
               
-              <h2 className="text-xl font-bold text-gray-900 mb-3">
+              <h2 className="text-xl font-bold text-gray-900 mb-3 text-center sm:text-left">
                 <Link 
                   href={`/blog/${article.slug}`}
                   className="hover:text-blue-600 transition-colors"

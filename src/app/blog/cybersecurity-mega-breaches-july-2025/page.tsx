@@ -2,14 +2,14 @@ import Link from 'next/link';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Cybersecurity Crisis: How July 2025's Mega-Breaches Changed Enterprise Security Forever | Acelync",
+  title: "Cybersecurity Crisis: How July 2025's Mega-Breaches Changed Enterprise Security Forever | Tech Today Global",
   description: "Microsoft's Azure breach, Apple's supply chain compromise, and the CrowdStrike incident in July 2025 revealed critical vulnerabilities. Learn how to protect your enterprise.",
   keywords: "cybersecurity breaches 2025, Microsoft Azure security, Apple supply chain attack, CrowdStrike incident, enterprise security, endpoint protection, threat intelligence",
-  authors: [{ name: "Acelync Security Team" }],
+  authors: [{ name: "Tech Today Global Security Team" }],
   openGraph: {
     title: 'Cybersecurity Crisis: How July 2025\'s Mega-Breaches Changed Enterprise Security Forever',
     description: 'Microsoft\'s Azure breach and Apple\'s supply chain compromise revealed critical vulnerabilities affecting millions of enterprises.',
-    url: 'https://acelync.com/blog/cybersecurity-mega-breaches-july-2025/',
+    url: 'https://techtodayglobal.com/blog/cybersecurity-mega-breaches-july-2025/',
     type: 'article',
     images: [{ url: '/blog/cybersecurity-crisis-2025.jpg', width: 1200, height: 630 }],
     publishedTime: '2025-07-15',
@@ -23,10 +23,10 @@ export default function ArticlePage() {
     "@type": "BlogPosting",
     "headline": "Cybersecurity Crisis: How July 2025's Mega-Breaches Changed Enterprise Security Forever",
     "description": "Microsoft's Azure breach and Apple's supply chain compromise revealed critical vulnerabilities affecting millions of enterprises.",
-    "author": { "@type": "Organization", "name": "Acelync Security Team" },
-    "publisher": { "@type": "Organization", "name": "Acelync" },
+    "author": { "@type": "Organization", "name": "Tech Today Global Security Team" },
+    "publisher": { "@type": "Organization", "name": "Tech Today Global" },
     "datePublished": "2025-07-21",
-    "mainEntityOfPage": "https://acelync.com/blog/cybersecurity-mega-breaches-july-2025"
+    "mainEntityOfPage": "https://techtodayglobal.com/blog/cybersecurity-mega-breaches-july-2025"
   };
 
   return (
@@ -41,7 +41,7 @@ export default function ArticlePage() {
             <span>Cybersecurity</span>
           </div>
           
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4 text-center sm:text-left">
             Cybersecurity Crisis: How July 2025's Mega-Breaches Changed Enterprise Security Forever
           </h1>
           

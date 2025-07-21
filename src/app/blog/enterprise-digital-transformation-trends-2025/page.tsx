@@ -2,14 +2,14 @@ import Link from 'next/link';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Enterprise Digital Transformation Trends 2025 | Acelync",
+  title: "Enterprise Digital Transformation Trends 2025 | Tech Today Global",
   description: "Discover the latest trends shaping digital transformation in enterprise environments. From AI integration to cloud-first strategies, learn what's driving change in 2025.",
   keywords: "digital transformation, enterprise technology, AI automation, cloud computing, cybersecurity, IT consulting",
-  authors: [{ name: "Acelync Team" }],
+  authors: [{ name: "Tech Today Global Team" }],
   openGraph: {
     title: 'Enterprise Digital Transformation Trends 2025',
     description: 'Discover the latest trends shaping digital transformation in enterprise environments.',
-    url: 'https://acelync.com/blog/enterprise-digital-transformation-trends-2025/',
+    url: 'https://techtodayglobal.com/blog/enterprise-digital-transformation-trends-2025/',
     type: 'article',
     images: [
       {
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     ],
     publishedTime: '2025-05-01',
     modifiedTime: '2025-01-15',
-    authors: ['Acelync Team'],
+    authors: ['Tech Today Global Team'],
     section: 'Digital Transformation',
   },
   twitter: {
@@ -39,7 +39,7 @@ export default function ArticlePage() {
     publishDate: "2025-01-15",
     readTime: "8 min read",
     category: "Digital Transformation",
-    author: "Acelync Team"
+    author: "Tech Today Global Team"
   };
 
   const structuredData = {
@@ -53,17 +53,17 @@ export default function ArticlePage() {
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Acelync",
+      "name": "Tech Today Global",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://acelync.com/logo.png"
+        "url": "https://techtodayglobal.com/logo.png"
       }
     },
     "datePublished": article.publishDate,
     "dateModified": article.publishDate,
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://acelync.com/blog/enterprise-digital-transformation-trends-2025"
+      "@id": "https://techtodayglobal.com/blog/enterprise-digital-transformation-trends-2025"
     }
   };
 

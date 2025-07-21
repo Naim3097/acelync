@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Technology Categories - Browse by Topic | Tech Info',
     description: 'Explore our comprehensive technology categories including AI Infrastructure, Cybersecurity, Network Solutions, and Digital Transformation.',
-    url: 'https://acelync.com/categories/',
+    url: 'https://techtodayglobal.com/categories/',
     type: 'website',
   },
 };
