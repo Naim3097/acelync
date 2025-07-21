@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://acelync.com/sitemap.xml
+Sitemap: https://acelync.com/blog-sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /api/
+
+# Allow all blog content for better indexing
+Allow: /blog/
+Allow: /blog/category/
+Allow: /blog/tag/
