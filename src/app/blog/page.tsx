@@ -136,7 +136,7 @@ export default function BlogPage() {
       id: 12,
       title: "Enterprise Office Real Estate Revolution: How Hybrid Work in 2025 Transformed Commercial Space Strategies",
       excerpt: "WeWork's enterprise solutions, flexible office platforms, and smart building technologies revolutionized commercial real estate.",
-      category: "Enterprise Services",
+      category: "IT Consulting",
       readTime: "9 min read",
       publishDate: "June 5, 2025",
       slug: "enterprise-office-real-estate-revolution-2025",
@@ -146,7 +146,7 @@ export default function BlogPage() {
       id: 13,
       title: "Advanced Cyber Consultation: How June 2025's Strategic Security Advisory Transformed Enterprise Defense",
       excerpt: "Deloitte's Cyber Risk services, PwC's digital trust platform, and KPMG's cyber resilience framework revolutionized strategic cybersecurity.",
-      category: "Cyber Strategy",
+      category: "IT Consulting",
       readTime: "13 min read",
       publishDate: "June 24, 2025",
       slug: "advanced-cyber-consultation-strategic-june-2025",
@@ -216,6 +216,24 @@ export default function BlogPage() {
           All Articles
         </Link>
         <Link 
+          href="/blog/category/ai-infrastructure"
+          className="bg-gray-200 text-gray-700 px-6 py-2 rounded-full font-medium hover:bg-gray-300 transition-colors"
+        >
+          AI Infrastructure
+        </Link>
+        <Link 
+          href="/blog/category/cybersecurity"
+          className="bg-gray-200 text-gray-700 px-6 py-2 rounded-full font-medium hover:bg-gray-300 transition-colors"
+        >
+          Cybersecurity
+        </Link>
+        <Link 
+          href="/blog/category/network-solutions"
+          className="bg-gray-200 text-gray-700 px-6 py-2 rounded-full font-medium hover:bg-gray-300 transition-colors"
+        >
+          Network Solutions
+        </Link>
+        <Link 
           href="/blog/category/digital-transformation"
           className="bg-gray-200 text-gray-700 px-6 py-2 rounded-full font-medium hover:bg-gray-300 transition-colors"
         >
@@ -226,12 +244,6 @@ export default function BlogPage() {
           className="bg-gray-200 text-gray-700 px-6 py-2 rounded-full font-medium hover:bg-gray-300 transition-colors"
         >
           Cloud Computing
-        </Link>
-        <Link 
-          href="/blog/category/cybersecurity"
-          className="bg-gray-200 text-gray-700 px-6 py-2 rounded-full font-medium hover:bg-gray-300 transition-colors"
-        >
-          Cybersecurity
         </Link>
         <Link 
           href="/blog/category/it-consulting"

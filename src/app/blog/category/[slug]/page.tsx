@@ -16,7 +16,7 @@ const allArticles = [
     category: "ai-infrastructure",
     categoryDisplay: "AI Infrastructure",
     readTime: "11 min read",
-    publishDate: "July 21, 2025",
+    publishDate: "July 8, 2025",
     slug: "ai-infrastructure-revolution-july-2025",
     featured: true
   },
@@ -27,7 +27,7 @@ const allArticles = [
     category: "cybersecurity",
     categoryDisplay: "Cybersecurity",
     readTime: "12 min read",
-    publishDate: "July 21, 2025",
+    publishDate: "July 15, 2025",
     slug: "cybersecurity-mega-breaches-july-2025",
     featured: true
   },
@@ -35,10 +35,10 @@ const allArticles = [
     id: 3,
     title: "Cloud Computing Revolution: June 2025's Multi-Cloud Breakthrough",
     excerpt: "New multi-cloud orchestration platforms are enabling seamless workload distribution across AWS, Azure, and Google Cloud environments.",
-    category: "network-solutions",
-    categoryDisplay: "Network Solutions",
+    category: "cloud-computing",
+    categoryDisplay: "Cloud Computing",
     readTime: "10 min read",
-    publishDate: "July 21, 2025",
+    publishDate: "June 10, 2025",
     slug: "cloud-computing-revolution-june-2025",
     featured: false
   },
@@ -49,7 +49,7 @@ const allArticles = [
     category: "network-solutions",
     categoryDisplay: "Network Solutions",
     readTime: "9 min read",
-    publishDate: "July 21, 2025",
+    publishDate: "June 3, 2025",
     slug: "5g-enterprise-networks-june-2025",
     featured: false
   },
@@ -60,7 +60,7 @@ const allArticles = [
     category: "digital-transformation",
     categoryDisplay: "Digital Transformation",
     readTime: "12 min read",
-    publishDate: "July 21, 2025",
+    publishDate: "May 6, 2025",
     slug: "digital-transformation-acceleration-may-2025",
     featured: false
   },
@@ -71,7 +71,7 @@ const allArticles = [
     category: "network-solutions",
     categoryDisplay: "Network Solutions",
     readTime: "10 min read",
-    publishDate: "July 21, 2025",
+    publishDate: "May 31, 2025",
     slug: "voip-evolution-microsoft-zoom-may-2025",
     featured: false
   },
@@ -82,7 +82,7 @@ const allArticles = [
     category: "network-solutions",
     categoryDisplay: "Network Solutions",
     readTime: "11 min read",
-    publishDate: "July 21, 2025",
+    publishDate: "April 22, 2025",
     slug: "edge-computing-iot-revolution-april-2025",
     featured: false
   },
@@ -93,7 +93,7 @@ const allArticles = [
     category: "cybersecurity",
     categoryDisplay: "Cybersecurity",
     readTime: "14 min read",
-    publishDate: "July 21, 2025",
+    publishDate: "June 17, 2025",
     slug: "endpoint-security-crisis-ransomware-june-2025",
     featured: false
   },
@@ -104,7 +104,7 @@ const allArticles = [
     category: "cybersecurity",
     categoryDisplay: "Cybersecurity",
     readTime: "12 min read",
-    publishDate: "July 21, 2025",
+    publishDate: "May 28, 2025",
     slug: "next-generation-firewall-ai-revolution-may-2025",
     featured: false
   },
@@ -115,7 +115,7 @@ const allArticles = [
     category: "ai-infrastructure",
     categoryDisplay: "AI Infrastructure",
     readTime: "11 min read",
-    publishDate: "July 21, 2025",
+    publishDate: "April 8, 2025",
     slug: "behavioral-analytics-ai-breakthrough-april-2025",
     featured: false
   },
@@ -126,7 +126,7 @@ const allArticles = [
     category: "cybersecurity",
     categoryDisplay: "Cybersecurity",
     readTime: "10 min read",
-    publishDate: "July 21, 2025",
+    publishDate: "May 14, 2025",
     slug: "enterprise-security-subscriptions-saas-may-2025",
     featured: false
   },
@@ -134,10 +134,10 @@ const allArticles = [
     id: 12,
     title: "Enterprise Office Real Estate Revolution: How Hybrid Work in 2025 Transformed Commercial Space Strategies",
     excerpt: "WeWork's enterprise solutions, flexible office platforms, and smart building technologies revolutionized commercial real estate.",
-    category: "digital-transformation",
-    categoryDisplay: "Digital Transformation",
+    category: "it-consulting",
+    categoryDisplay: "IT Consulting",
     readTime: "9 min read",
-    publishDate: "July 21, 2025",
+    publishDate: "June 5, 2025",
     slug: "enterprise-office-real-estate-revolution-2025",
     featured: false
   },
@@ -145,10 +145,10 @@ const allArticles = [
     id: 13,
     title: "Advanced Cyber Consultation: How June 2025's Strategic Security Advisory Transformed Enterprise Defense",
     excerpt: "Deloitte's Cyber Risk services, PwC's digital trust platform, and KPMG's cyber resilience framework revolutionized strategic cybersecurity.",
-    category: "cybersecurity",
-    categoryDisplay: "Cybersecurity",
+    category: "it-consulting",
+    categoryDisplay: "IT Consulting",
     readTime: "13 min read",
-    publishDate: "July 21, 2025",
+    publishDate: "June 24, 2025",
     slug: "advanced-cyber-consultation-strategic-june-2025",
     featured: false
   },
@@ -159,7 +159,7 @@ const allArticles = [
     category: "cybersecurity",
     categoryDisplay: "Cybersecurity",
     readTime: "14 min read",
-    publishDate: "July 21, 2025",
+    publishDate: "July 22, 2025",
     slug: "quantum-computing-threat-post-quantum-cryptography-july-2025",
     featured: false
   },
@@ -170,7 +170,7 @@ const allArticles = [
     category: "cybersecurity",
     categoryDisplay: "Cybersecurity",
     readTime: "12 min read",
-    publishDate: "July 21, 2025",
+    publishDate: "May 20, 2025",
     slug: "managed-security-services-evolution-may-2025",
     featured: false
   },
@@ -181,7 +181,7 @@ const allArticles = [
     category: "digital-transformation",
     categoryDisplay: "Digital Transformation",
     readTime: "10 min read",
-    publishDate: "July 21, 2025",
+    publishDate: "June 30, 2025",
     slug: "enterprise-website-presentation-revolution-june-2025",
     featured: false
   },
@@ -192,7 +192,7 @@ const allArticles = [
     category: "digital-transformation",
     categoryDisplay: "Digital Transformation",
     readTime: "8 min read",
-    publishDate: "July 21, 2025",
+    publishDate: "May 1, 2025",
     slug: "enterprise-digital-transformation-trends-2025",
     featured: false
   }
@@ -216,8 +216,18 @@ const categoryInfo = {
   },
   "digital-transformation": {
     name: "Digital Transformation",
-    description: "Enterprise digital transformation strategies, office real estate evolution, and website presentation innovations.",
+    description: "Enterprise digital transformation strategies, website presentation innovations, and business modernization approaches.",
     color: "from-indigo-500 to-purple-600"
+  },
+  "cloud-computing": {
+    name: "Cloud Computing",
+    description: "Multi-cloud strategies, cloud infrastructure optimization, and enterprise cloud adoption insights for modern business operations.",
+    color: "from-sky-500 to-blue-600"
+  },
+  "it-consulting": {
+    name: "IT Consulting",
+    description: "Strategic IT consulting services, enterprise advisory solutions, and professional guidance for technology transformation initiatives.",
+    color: "from-emerald-500 to-green-600"
   }
 };
 
