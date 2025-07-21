@@ -268,7 +268,7 @@ export default function BlogPage() {
                 <time dateTime={article.publishDate}>{article.publishDate}</time>
               </div>
               
-              <h2 className="text-xl font-bold text-gray-900 mb-3 text-center sm:text-left">
+              <h2 className="text-xl font-bold text-gray-900 mb-3">
                 <Link 
                   href={`/blog/${article.slug}`}
                   className="hover:text-blue-600 transition-colors"
