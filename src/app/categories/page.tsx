@@ -42,13 +42,61 @@ export default function CategoriesPage() {
     },
     {
       name: "Network Solutions",
-      description: "Enterprise networking innovations including 5G deployments, VoIP evolution, and edge computing infrastructure transformations.",
-      count: 4,
+      description: "Enterprise networking innovations including 5G deployments, VoIP evolution, edge computing, and comprehensive Aruba networking infrastructure solutions.",
+      count: 16,
       slug: "network-solutions",
       articles: [
         { title: "5G Enterprise Networks: June 2025 Deployments Transform Business", slug: "5g-enterprise-networks-june-2025" },
         { title: "VoIP Evolution: Microsoft Teams and Zoom May 2025 Updates", slug: "voip-evolution-microsoft-zoom-may-2025" },
-        { title: "Edge Computing IoT Revolution April 2025", slug: "edge-computing-iot-revolution-april-2025" },
+        { title: "Aruba Zero Trust Network Security: July 2025 Enterprise Authentication", slug: "aruba-zero-trust-network-security-july-2025" },
+        { title: "Aruba Wi-Fi 7 Enterprise Deployment: July 2025 Wireless Performance Breakthrough", slug: "aruba-wifi-7-enterprise-deployment-july-2025" },
+        { title: "Aruba SD-WAN Edge Computing: July 2025 Distributed Network Revolution", slug: "aruba-sdwan-edge-computing-july-2025" },
+        { title: "Aruba Central Cloud Management Revolution: July 2025 AI-Powered Operations", slug: "aruba-central-cloud-management-revolution-july-2025" }
+      ]
+    },
+    {
+      name: "Wireless Technology",
+      description: "Advanced wireless networking solutions including Wi-Fi 7, enterprise access points, and comprehensive wireless infrastructure for modern businesses.",
+      count: 4,
+      slug: "wireless-technology",
+      articles: [
+        { title: "Aruba Wi-Fi 7 Enterprise Deployment: July 2025 Wireless Performance Breakthrough", slug: "aruba-wifi-7-enterprise-deployment-july-2025" },
+        { title: "Aruba Wireless Access Points: Enterprise Wi-Fi Performance Excellence", slug: "aruba-wireless-access-points-enterprise-wifi-performance" },
+        { title: "Aruba Enterprise Wireless Solutions: Complete Business Connectivity", slug: "aruba-enterprise-wireless-solutions-business-connectivity-performance" },
+        { title: "Edge Computing IoT Revolution: April 2025 Breakthrough", slug: "edge-computing-iot-revolution-april-2025" }
+      ]
+    },
+    {
+      name: "Network Security",
+      description: "Comprehensive network security solutions including zero trust architecture, ClearPass access management, and advanced threat protection frameworks.",
+      count: 4,
+      slug: "network-security", 
+      articles: [
+        { title: "Aruba Zero Trust Network Security: July 2025 Enterprise Authentication", slug: "aruba-zero-trust-network-security-july-2025" },
+        { title: "Aruba Network Security Framework: Edge-to-Cloud Protection", slug: "aruba-network-security-framework-edge-cloud-protection" },
+        { title: "Aruba ClearPass Access Management: Identity Network Security Excellence", slug: "aruba-clearpass-access-management-identity-network-security" },
+        { title: "Cybersecurity Mega Breaches: July 2025 Changed Enterprise Security", slug: "cybersecurity-mega-breaches-july-2025" }
+      ]
+    },
+    {
+      name: "Enterprise Networking",
+      description: "Complete enterprise networking solutions including switching, infrastructure transformation, and comprehensive network optimization strategies.",
+      count: 4,
+      slug: "enterprise-networking",
+      articles: [
+        { title: "Aruba Switching Solutions: Enterprise Network Foundation Excellence", slug: "aruba-switching-solutions-enterprise-network-foundation" },
+        { title: "Aruba Enterprise Networking Solutions: Complete Infrastructure Transformation", slug: "aruba-enterprise-networking-solutions-infrastructure-transformation" },
+        { title: "Aruba Network Optimization: AI-Powered Performance Analytics", slug: "aruba-network-optimization-ai-powered-performance-analytics" },
+        { title: "Aruba Edge Services Platform: Intelligent Branch Office Computing", slug: "aruba-edge-services-platform-intelligent-branch-office-computing" }
+      ]
+    },
+    {
+      name: "Cloud Computing",
+      description: "Cloud infrastructure innovations, edge computing solutions, and multi-cloud enterprise strategies.",
+      count: 3,
+      slug: "cloud-computing",
+      articles: [
+        { title: "Edge Computing IoT Revolution: April 2025 Breakthrough", slug: "edge-computing-iot-revolution-april-2025" },
         { title: "Cloud Computing Revolution: June 2025's Multi-Cloud Breakthrough", slug: "cloud-computing-revolution-june-2025" }
       ]
     },

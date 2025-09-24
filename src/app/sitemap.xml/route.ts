@@ -35,6 +35,81 @@ export async function GET() {
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- New Aruba Articles - July 2025 -->
+  <url>
+    <loc>${baseUrl}/blog/aruba-zero-trust-network-security-july-2025</loc>
+    <lastmod>2025-07-25T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>${baseUrl}/blog/aruba-wifi-7-enterprise-deployment-july-2025</loc>
+    <lastmod>2025-07-18T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>${baseUrl}/blog/aruba-sdwan-edge-computing-july-2025</loc>
+    <lastmod>2025-07-12T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>${baseUrl}/blog/aruba-central-cloud-management-revolution-july-2025</loc>
+    <lastmod>2025-07-05T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- New Aruba Articles - August 2025 -->
+  <url>
+    <loc>${baseUrl}/blog/aruba-switching-solutions-enterprise-network-foundation</loc>
+    <lastmod>2025-08-20T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>${baseUrl}/blog/aruba-wireless-access-points-enterprise-wifi-performance</loc>
+    <lastmod>2025-08-15T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>${baseUrl}/blog/aruba-network-security-framework-edge-cloud-protection</loc>
+    <lastmod>2025-08-10T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>${baseUrl}/blog/aruba-enterprise-networking-solutions-infrastructure-transformation</loc>
+    <lastmod>2025-08-05T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- New Aruba Articles - September 2025 -->
+  <url>
+    <loc>${baseUrl}/blog/aruba-clearpass-access-management-identity-network-security</loc>
+    <lastmod>2025-09-22T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>${baseUrl}/blog/aruba-network-optimization-ai-powered-performance-analytics</loc>
+    <lastmod>2025-09-18T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>${baseUrl}/blog/aruba-enterprise-wireless-solutions-business-connectivity-performance</loc>
+    <lastmod>2025-09-16T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>${baseUrl}/blog/aruba-edge-services-platform-intelligent-branch-office-computing</loc>
+    <lastmod>2025-09-29T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>${baseUrl}/blog/category/digital-transformation</loc>
     <lastmod>${new Date().toISOString()}</lastmod>

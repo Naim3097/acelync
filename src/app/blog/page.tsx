@@ -191,6 +191,129 @@ export default function BlogPage() {
       publishDate: "May 1, 2025",
       slug: "enterprise-digital-transformation-trends-2025",
       featured: false
+    },
+    // New Aruba Articles - July 2025
+    {
+      id: 18,
+      title: "Aruba Zero Trust Network Security: July 2025 Enterprise Authentication Revolution",
+      excerpt: "Aruba ClearPass Access Manager revolutionized zero trust network security in July 2025. Learn how enterprises are implementing comprehensive identity-based access control.",
+      category: "Network Security",
+      readTime: "12 min read",
+      publishDate: "July 25, 2025",
+      slug: "aruba-zero-trust-network-security-july-2025",
+      featured: false
+    },
+    {
+      id: 19,
+      title: "Aruba Wi-Fi 7 Enterprise Deployment: July 2025 Wireless Performance Breakthrough",
+      excerpt: "Wi-Fi 7 deployment reached unprecedented scale in July 2025, with Aruba leading enterprise wireless transformation through revolutionary performance improvements and reliability enhancements.",
+      category: "Wireless Technology",
+      readTime: "14 min read",
+      publishDate: "July 18, 2025",
+      slug: "aruba-wifi-7-enterprise-deployment-july-2025",
+      featured: false
+    },
+    {
+      id: 20,
+      title: "Aruba SD-WAN Edge Computing: July 2025 Distributed Network Revolution",
+      excerpt: "Aruba EdgeConnect platform transformed distributed enterprise networks in July 2025, combining SD-WAN optimization with intelligent edge computing capabilities for unprecedented performance.",
+      category: "SD-WAN",
+      readTime: "13 min read",
+      publishDate: "July 12, 2025",
+      slug: "aruba-sdwan-edge-computing-july-2025",
+      featured: false
+    },
+    {
+      id: 21,
+      title: "Aruba Central Cloud Management Revolution: July 2025 AI-Powered Network Operations",
+      excerpt: "Aruba Central's AI-powered cloud management platform revolutionized enterprise network operations in July 2025 with intelligent automation, predictive analytics, and unified infrastructure control.",
+      category: "Network Management",
+      readTime: "11 min read",
+      publishDate: "July 5, 2025",
+      slug: "aruba-central-cloud-management-revolution-july-2025",
+      featured: false
+    },
+    // New Aruba Articles - August 2025
+    {
+      id: 22,
+      title: "Aruba Switching Solutions: Enterprise Network Foundation and Infrastructure Excellence",
+      excerpt: "Comprehensive analysis of Aruba's intelligent switching portfolio, featuring advanced automation, security integration, and high-performance connectivity for modern enterprise networks.",
+      category: "Network Infrastructure",
+      readTime: "12 min read",
+      publishDate: "August 20, 2025",
+      slug: "aruba-switching-solutions-enterprise-network-foundation",
+      featured: false
+    },
+    {
+      id: 23,
+      title: "Aruba Wireless Access Points: Enterprise Wi-Fi Performance and Reliability Excellence",
+      excerpt: "Deep dive into Aruba's comprehensive wireless access point portfolio, delivering industry-leading performance, advanced security, and intelligent management for enterprise environments.",
+      category: "Wireless Technology",
+      readTime: "13 min read",
+      publishDate: "August 15, 2025",
+      slug: "aruba-wireless-access-points-enterprise-wifi-performance",
+      featured: false
+    },
+    {
+      id: 24,
+      title: "Aruba Network Security Framework: Edge-to-Cloud Protection and Zero Trust Architecture",
+      excerpt: "Comprehensive security framework analysis covering Aruba's integrated approach to network protection, zero trust implementation, and advanced threat detection across enterprise infrastructure.",
+      category: "Network Security",
+      readTime: "14 min read",
+      publishDate: "August 10, 2025",
+      slug: "aruba-network-security-framework-edge-cloud-protection",
+      featured: false
+    },
+    {
+      id: 25,
+      title: "Aruba Enterprise Networking Solutions: Complete Infrastructure Transformation Guide",
+      excerpt: "Complete guide to Aruba's enterprise networking solutions portfolio, covering wireless, switching, security, and management platforms for comprehensive business transformation.",
+      category: "Enterprise Networking",
+      readTime: "15 min read",
+      publishDate: "August 5, 2025",
+      slug: "aruba-enterprise-networking-solutions-infrastructure-transformation",
+      featured: false
+    },
+    // New Aruba Articles - September 2025
+    {
+      id: 26,
+      title: "Aruba ClearPass Access Management: Identity Network Security and Authentication Excellence",
+      excerpt: "Comprehensive analysis of Aruba ClearPass Policy Manager for enterprise network access control, identity management, and zero trust security implementation across complex business environments.",
+      category: "Identity Management",
+      readTime: "13 min read",
+      publishDate: "September 22, 2025",
+      slug: "aruba-clearpass-access-management-identity-network-security",
+      featured: false
+    },
+    {
+      id: 27,
+      title: "Aruba Network Optimization: AI-Powered Performance Analytics and Intelligent Management",
+      excerpt: "Advanced network optimization strategies using Aruba's AI-powered analytics, predictive performance management, and automated optimization for maximum enterprise network efficiency.",
+      category: "Network Analytics",
+      readTime: "12 min read",
+      publishDate: "September 18, 2025",
+      slug: "aruba-network-optimization-ai-powered-performance-analytics",
+      featured: false
+    },
+    {
+      id: 28,
+      title: "Aruba Enterprise Wireless Solutions: Complete Business Connectivity and Performance",
+      excerpt: "Comprehensive guide to Aruba enterprise wireless solutions including access points, management systems, security features, and performance optimization for modern businesses.",
+      category: "Wireless Technology",
+      readTime: "15 min read",
+      publishDate: "September 16, 2025",
+      slug: "aruba-enterprise-wireless-solutions-business-connectivity-performance",
+      featured: false
+    },
+    {
+      id: 29,
+      title: "Aruba Edge Services Platform: Intelligent Branch Office Computing and Network Infrastructure",
+      excerpt: "Complete guide to Aruba Edge Services Platform delivering intelligent branch office computing, SD-WAN connectivity, security services, and unified infrastructure management.",
+      category: "Edge Computing",
+      readTime: "15 min read",
+      publishDate: "September 29, 2025",
+      slug: "aruba-edge-services-platform-intelligent-branch-office-computing",
+      featured: false
     }
   ];
 
